@@ -206,7 +206,6 @@ public class RavenExpander : Gtk.Box
         public get {
             return content.get_reveal_child();
         }
-        default = true;
     }
 
     private bool track_animations = false;
