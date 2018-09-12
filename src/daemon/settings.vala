@@ -114,6 +114,7 @@ public class SettingsManager
             break;
         }
         this.xoverrides.set_value("overrides", xset);
+        this.gnome_wm_settings.set_value("button-layout", wm_set);
     }
 
     /**
